@@ -1,103 +1,44 @@
-# Creative Portfolio Website
+# 🎨 Professional Portfolio Website
 
-A modern, responsive portfolio website designed to showcase creative work including graphic design, UI/UX projects, illustrations, and digital art. Built with HTML5, CSS3, and JavaScript.
+Welcome to my modern, responsive portfolio website, tailored for creative professionals. This project features a sleek dark theme, interactive elements, and a user-friendly design to showcase my work and skills effectively.
 
-## 🚀 Features
+---
 
-- Modern dark theme with accent colors
-- Fully responsive design for all devices
-- Interactive project showcase grid with filtering
-- Animated transitions and hover effects
-- Detailed project pages with case studies
-- Skills and tools visualization
-- Integrated contact form
-- Performance optimized images
-- SEO friendly structure
+## ⚠️ Private Repository Notice
 
-## 🛠️ Technologies Used
+**This is a private portfolio website. All rights reserved.**  
+The contents of this repository, including source code, design, and assets, are proprietary and intended for personal use only. Please respect the following restrictions:  
+- Unauthorized copying, modification, or distribution is strictly prohibited.  
+- The source code is not open for public use or adaptation.  
+- All design and implementation details are protected intellectual property.
 
-- HTML5
-- CSS3 (Flexbox & Grid)
-- JavaScript (ES6+)
-- Font Awesome Icons
-- Google Fonts
-- CSS Animations
+---
 
-## 📁 Project Structure
+## 🔒 Usage Restrictions
 
-```
-portfolio/
-├── index.html          # Main entry point
-├── style.css          # Main stylesheet
-├── script.js          # JavaScript functionality
-├── assets/
-│   ├── profile/       # Profile and personal images
-│   ├── projects/      # Project images and thumbnails
-│   └── icons/         # Tool and technology icons
-└── README.md          # Documentation
-```
+This portfolio website and its associated materials are:  
+- **Not available for public use** or commercial purposes.  
+- **Not licensed for redistribution** in any form.  
+- **Protected by copyright law** © 2024.  
 
-## 🚦 Getting Started
+Any use beyond viewing this README requires explicit permission from the owner.
 
-1. **Clone the Repository**
-   ```bash
-   git clone [repository-url]
-   cd portfolio
-   ```
+---
 
-2. **Customize Content**
-   - Update `index.html` with your personal information
-   - Modify project details in the portfolio section
-   - Replace images in the `assets` directory
-   - Adjust colors and styling in `style.css`
+## 📧 Contact
 
-3. **Profile Setup**
-   - Replace profile image in `assets/profile/`
-   - Update bio and contact information
-   - Modify skills and tools section
+Interested in collaboration, services, or have questions? Feel free to reach out:  
+- **Email:** [Contact Form on Website]  
+- **Portfolio:** [Website URL]  
 
-4. **Project Setup**
-   - Add project images to `assets/projects/`
-   - Update project descriptions
-   - Configure project filtering categories
+I’d love to connect and discuss potential opportunities!
 
-## 💡 Customization
+---
 
-### Colors
-The theme colors can be modified in `style.css`:
-```css
-:root {
-  --primary-color: #2c2c2c;
-  --accent-color: #64ffda;
-  --text-color: #ffffff;
-  --background-color: #0a192f;
-}
-```
+## ℹ️ About This Project
 
-### Content
-- Modify section headings and text in `index.html`
-- Update project descriptions and categories
-- Customize form fields and validation
+This portfolio was built with a focus on modern web design principles, responsiveness, and accessibility. It serves as a personal showcase for my creative and technical abilities.
 
-## 📱 Responsive Design
+---
 
-The portfolio is fully responsive with breakpoints at:
-- Mobile: 320px - 480px
-- Tablet: 481px - 768px
-- Desktop: 769px and above
-
-## 🔧 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## 👤 Author
-
-Created by Gagan Pratap
-Last Updated: January 2025
+© 2025 [Gagan Pratap]. All Rights Reserved.

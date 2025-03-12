@@ -196,3 +196,34 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+// FAQ Toggle functionality
+document.querySelectorAll('.faq-item').forEach(item => {
+    item.addEventListener('click', () => {
+        const isCurrentlyActive = item.classList.contains('active');
+        
+        // Close all FAQ items
+        document.querySelectorAll('.faq-item').forEach(faqItem => {
+            faqItem.classList.remove('active');
+            const icon = faqItem.querySelector('.toggle-icon');
+            icon.classList.remove('fa-minus');
+            icon.classList.add('fa-plus');
+            
+            // Reset question color
+            const questionText = faqItem.querySelector('.question-text');
+            questionText.style.color = ''; // Reset to default
+        });
+        
+        // If the clicked item wasn't active, open it
+        if (!isCurrentlyActive) {
+            item.classList.add('active');
+            const toggleIcon = item.querySelector('.toggle-icon');
+            toggleIcon.classList.remove('fa-plus');
+            toggleIcon.classList.add('fa-minus');
+            
+            // Highlight active question
+            const questionText = item.querySelector('.question-text');
+            questionText.style.color = 'var(--primary-color)';
+        }
+    });
+});
