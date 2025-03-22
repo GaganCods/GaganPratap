@@ -1,6 +1,6 @@
 # 🎨 Professional Portfolio Website
 
-Welcome to my modern, responsive portfolio website, tailored for creative professionals. This project features a sleek dark theme, interactive elements, and a user-friendly design to showcase my work and skills effectively.
+Welcome to my modern, responsive portfolio website, tailored for creative professionals. This project features a sleek dark theme, interactive elements, and a user-friendly design to effectively showcase my work and skills.
 
 ---
 
@@ -19,7 +19,7 @@ The contents of this repository, including source code, design, and assets, are 
 This portfolio website and its associated materials are:  
 - **Not available for public use** or commercial purposes.  
 - **Not licensed for redistribution** in any form.  
-- **Protected by copyright law** © 2024.  
+- **Protected by copyright law** © 2025.  
 
 Any use beyond viewing this README requires explicit permission from the owner.
 
@@ -29,7 +29,7 @@ Any use beyond viewing this README requires explicit permission from the owner.
 
 Interested in collaboration, services, or have questions? Feel free to reach out:  
 - **Email:** [Contact Form on Website]  
-- **Portfolio:** [Website URL]  
+- **Portfolio:** [https://gaganpratap.vercel.app/]  
 
 I’d love to connect and discuss potential opportunities!
 
