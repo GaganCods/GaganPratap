@@ -1071,7 +1071,7 @@ textarea {
 .editing-tools .tool-button:hover {
     background-color: transparent;
     border-color: var(--primary-color);
-    color: var(--primary-color);
+    color: var (--primary-color);
     transform: translateY(-3px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     z-index: 2;
@@ -1302,6 +1302,14 @@ textarea {
     margin-bottom: 0;
 }
 
+.highlight-content h4 i {
+    position: relative;
+    top: 3px; /* Moves icon downward */
+    margin-right: 3px;
+    display: inline-block;
+    transform: scale(0.6);
+}
+
 .about-image {
     flex: 0 0 300px;
     text-align: center;
@@ -1313,7 +1321,7 @@ textarea {
     display: block;
     margin-top: 0.5rem;
     font-family: var(--font-heading);
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--primary-color);
     font-weight: 600;
 }
@@ -1322,6 +1330,7 @@ textarea {
     width: 100%;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border: 4px solid rgba(207, 255, 51, 0.3); /* primary color with 0.2 opacity */
 }
 
 .about-text {
@@ -1403,4 +1412,6 @@ textarea {
         transform: rotate(360deg);
     }
 }
+
+
 
