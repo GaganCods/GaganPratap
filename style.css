@@ -10,6 +10,76 @@
     --font-body: 'Montserrat', sans-serif;
 }
 
+/* Scroll Down Indicator */
+.scroll-indicator {
+    display: none; /* Hidden by default on desktop */
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+    color: var(--text-primary);
+    animation: fadeInUp 1s ease-out;
+    margin-top: 1rem;
+    background: linear-gradient(180deg, rgba(18,18,18,0) 0%, var(--dark-bg) 100%);
+}
+
+.scroll-arrows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.scroll-arrows i {
+    font-size: 20px;
+    opacity: 0.8;
+    animation: bounceArrow 2s infinite;
+}
+
+.scroll-arrows i:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.scroll-text {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: var(--font-body);
+    color: var(--text-secondary);
+}
+
+@keyframes bounceArrow {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-8px);
+    }
+    60% {
+        transform: translateY(-4px);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate(-50%, 20px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+}
+
+/* Show scroll indicator on mobile */
+@media screen and (max-width: 768px) {
+    .scroll-indicator {
+        display: block;
+    }
+}
+
+
 * {
     margin: 0;
     padding: 0;
