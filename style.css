@@ -108,6 +108,13 @@
     }
 }
 
+
+
+.scroll-indicator {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* Profile Animation */
 .profile-sidebar {
     animation: profileFadeIn 0.8s ease-out forwards;
