@@ -17,9 +17,24 @@
     padding: 2rem 0;
     text-align: center;
     color: var(--text-primary);
-    animation: fadeInUp 1s ease-out;
+    opacity: 0;
+    animation: fadeInCenter 1s ease-out forwards;
     margin-top: 1rem;
     background: linear-gradient(180deg, rgba(18,18,18,0) 0%, var(--dark-bg) 100%);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@keyframes fadeInCenter {
+    from {
+        opacity: 0;
+        transform: translate(-50%, 20px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
 }
 
 .scroll-arrows {
@@ -72,13 +87,60 @@
     }
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 /* Show scroll indicator on mobile */
 @media screen and (max-width: 768px) {
     .scroll-indicator {
         display: block;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
+/* Profile Animation */
+.profile-sidebar {
+    animation: profileFadeIn 0.8s ease-out forwards;
+    opacity: 0;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+}
+
+@keyframes profileFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.profile-card {
+    animation: cardFadeIn 1s ease-out 0.3s backwards;
+}
+
+@keyframes cardFadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.98);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
 
 * {
     margin: 0;
